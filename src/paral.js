@@ -4,8 +4,7 @@ let text = document.getElementsByClassName('text1')[0];
 
 window.addEventListener('scroll',()=>{
     let value = window.scrollY;
-    
     leaf.style.top = value* -1.5 + 'px';
-    text.style.marginTop = value*2.5 + 'px';
-    text.style.zIndex = '0';
+    text.style.marginTop = value*1 + 'px';
+    text.style.opacity = value* 0 + 'px';
 })

@@ -28,7 +28,7 @@ function SlideCorasel() {
       };
   return (
     <>
-    <div className="w-screen h-full bg-slate-900">
+    <div className="w-screen h-full bg-slate-900 pb-5">
             <div className="w-5/6 m-auto">
                 <div className="mt-20 ">
                 <Slider {...settings}>
