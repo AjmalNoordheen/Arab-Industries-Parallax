@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+.fallleaf{
+ animation: fall 10s  infinite ease-out ;
+ transition: linear ;
+}
+.fallleaf2{
+ animation: fall2 16s  infinite ease-out ;
+ transition: linear ;
+}
+.fallleaf3{
+ animation: fall3 7s  infinite linear ;
+ transition: linear ;
+}
+.fallleaf4{
+ animation: fall4 12s  infinite ease-out ;
+ transition: linear ;
+}
+.fallleaf5{
+ animation: fall5 8s  infinite ease-out ;
+ transition: linear ;
+}
+
+@keyframes fall{
+   0%{
+      top: -5%;
+      left: 10%;
+   }
+   100%{
+    top: 100%;
+    left: 30%;
+    opacity: 0;
+   }
+}
+@keyframes fall2{
+   0%{
+      top: -5%;
+      right: 10%;
+   }
+   100%{
+    top: 100%;
+    right: 30%;
+   }
+}
+@keyframes fall3{
+   0%{
+      top: -5%;
+      left: 40%;
+   }
+   100%{
+    top: 100%;
+    left: 80%;
+    opacity: 0;
+   }
+}
+@keyframes fall4{
+   0%{
+      top: -5%;
+      right: 30%;
+   }
+   100%{
+    top: 100%;
+    right: 80%;
+    opacity: 0;
+   }
+}
+@keyframes fall5{
+   0%{
+      top: -5%;
+      left: 80%;
+   }
+   100%{
+    top: -100%;
+    left: 50%;
+    opacity: 0;
+   }
+}
+
+
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-list {
+    display: flex;
+  }
