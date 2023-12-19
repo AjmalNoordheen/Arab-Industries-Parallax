@@ -12,7 +12,7 @@ function App() {
           className="mainLeaf top-0 left-0 absolute  w-[100%] pointer-events-none"
           alt=""
         />
-        <h1 className="text1 font-bold absolute  text-white text-5xl z-10 ">
+        <h1 className="text1 font-bold absolute  text-white text-2xl sm:text-4xl md:text-5xl z-10 ">
           Welcome to the World of Nature
         </h1>
         <img
@@ -45,14 +45,14 @@ function App() {
       <div className="w-screen h-full">
         <div
           style={{
-            backgroundImage: "url(banner.jpg)",
+            backgroundImage: "url(banner1.avif)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundAttachment: "fixed",
           }}
           className="w-full  flex justify-center items-center h-[25rem] bg-yellow-50"
         >
-          <div className="w-9/12 backdrop-blur-sm md:flex-row    gap-2 overflow-scroll items-center h-[90%] ">
+          <div className="w-9/12 backdrop-blur-sm md:flex-row    gap-2 overflow-scroll items-center h-[92%] ">
             <img src="anthu.jpeg" className="w-1/3 border  h-fit" alt="" />
             <p className="text-slate-300">
               <h1 className="text-xl text-white">Anthoruim</h1>
@@ -75,17 +75,17 @@ function App() {
         </div>
         <div
           style={{
-            backgroundImage: "url(banner1.jpg)",
+            backgroundImage: "url(banner.avif)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundAttachment: "fixed",
           }}
           className="w-full flex justify-center items-center h-[25rem] bg-yellow-50"
         >
-          <div className="w-9/12 backdrop-blur-sm md:flex-row    gap-2 overflow-scroll items-center h-[90%] ">
+          <div className="w-9/12 backdrop-blur-sm md:flex-row    gap-2 overflow-scroll items-center h-[92%] ">
             <img src="22.webp" className="w-1/3 border  h-fit" alt="" />
             <p className="text-slate-300">
-              <h1 className="text-xl text-white">Anthoruim</h1>
+              <h1 className="text-xl text-white">Florida</h1>
               Anthurium andraeanum is a tropical plant that is highly prized for
               its stately, bright red flower and yellow spadix. Many anthurium
               cultivars are available, Anthurium andraeanum is a tropical plant
@@ -112,10 +112,10 @@ function App() {
           }}
           className="w-full flex justify-center items-center h-[25rem] bg-yellow-50"
         >
-          <div className="w-9/12 backdrop-blur-sm md:flex-row    gap-2 overflow-scroll items-center h-[90%] ">
-            <img src="22.webp" className="w-1/3 border  h-fit" alt="" />
+          <div className="w-9/12 backdrop-blur-sm md:flex-row    gap-2 overflow-scroll items-center h-[92%] ">
+            <img src="111.jpg" className="w-1/3 border  h-fit" alt="" />
             <p className="text-slate-300">
-              <h1 className="text-xl text-white">Anthoruim</h1>
+              <h1 className="text-xl text-white">Rosell</h1>
               Anthurium andraeanum is a tropical plant that is highly prized for
               its stately, bright red flower and yellow spadix. Many anthurium
               cultivars are available, Anthurium andraeanum is a tropical plant
@@ -131,7 +131,7 @@ function App() {
               cultivars are available,Anthurium andraeanum is a tropical plant
               that is highly prized for its stately.
             </p>
-          </div>{" "}
+          </div>
         </div>
       </div>
     </div>
