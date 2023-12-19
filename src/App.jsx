@@ -5,7 +5,7 @@ import './index.js'
 function App() {
   return (
     <div className="w-screen  bg-slate-900">
-      <div className="parallex relative flex justify-center items-center h-[100vh]">
+      <div className="parallex relative flex justify-center items-center h-[65vh] sm:h-[80vh] md:h-[100vh]">
         <img
           src="/leaf.png "
           id="leaf"
