@@ -1,6 +1,6 @@
 import "./App.css";
 import SlideCorasel from "./SlideCorasel.jsx";
-import "./paral";
+import './index.js'
 
 function App() {
   return (
@@ -135,6 +135,7 @@ function App() {
         </div>
       </div>
     </div>
+    
   );
 }
 export default App;
