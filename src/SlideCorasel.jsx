@@ -7,9 +7,13 @@ function SlideCorasel() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    autoplay:true,
+    autoplaySpeed:5000,
+    speed: 2000,
+    cssEase:"linear",
     slidesToShow: 4,
     slidesToScroll: 1,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1024,
