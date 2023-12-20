@@ -1,8 +1,15 @@
+import { useEffect } from "react";
 import "./App.css";
 import SlideCorasel from "./SlideCorasel.jsx";
-import './index.js'
+import applyScrollEffect from './index.js';
+
 
 function App() {
+
+  useEffect(() => {
+    applyScrollEffect();
+  }, []); 
+
   return (
     <div className="w-screen  bg-slate-900">
       <div className="parallex relative flex justify-center items-center h-[65vh] sm:h-[80vh] md:h-[100vh]">
