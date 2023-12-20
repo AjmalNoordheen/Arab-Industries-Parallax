@@ -1,4 +1,3 @@
-// scrollEffect.js
 
 const applyScrollEffect = () => {
     let leaf = document.getElementsByClassName('mainLeaf')[0];
